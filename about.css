@@ -1,0 +1,124 @@
+li{
+  list-style: none;
+}
+nav{
+  background-color: gold;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+nav li a{
+  text-decoration: none;
+}
+
+.school-intro{
+  background-color: #004080;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.school-intro h1{
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.school-intro p{
+  font-size: 18px;
+}
+
+.school-purpose{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background-color: #e6f2ff;
+}
+
+.school-purpose .mission,
+.school-purpose .vision{
+  max-width: 400px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+ 
+}
+.school-purpose h2{
+  color: orangered;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  background-color: #0a0a23;
+  color: #fff;
+  padding: 3rem 1rem 1rem;
+  margin-top: 3rem;
+  font-size: 0.95rem;
+}
+.footer-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  
+}
+.footer-section{
+  flex: 1 1 220px;
+}
+.footer-section h3{
+  color: white;
+  margin-bottom: 1rem;
+}
+.footer-section ul{
+  list-style: none;
+  padding: 0;
+}
+.footer-section ul li{
+  margin-bottom: 0.5rem;
+}
+.footer-section ul li a{
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.7s;
+}
+.footer-section ul li a:hover{
+  color: orangered;
+  text-decoration: underline;
+}
+.footer-bottom{
+  text-align: center;
+  padding-top: 1rem;
+  
+
+}
